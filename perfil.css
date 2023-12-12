@@ -1,0 +1,164 @@
+/*geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-family: sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+/*topo*/
+
+.cima {
+    background-image: linear-gradient( to bottom, #DF9B6A , #FE6B01 );
+    width: 100vw;
+    min-height: 60px;
+    align-self: center;
+    box-shadow: 0px 0px 10px 0px #939393;
+}
+
+.cima div{
+    color: #fff;
+}
+
+
+.topo {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1vw;
+}
+
+.topo img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    border: #041181 solid 2px;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.topo p {
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+/*meio*/
+
+.indica{
+    width: 84vw;
+    display: flex;
+    margin: 4vh auto;
+    box-shadow: 0px 2px 8px 0px #939393;
+    padding: 5vw;
+}
+
+.indica img{
+    width: 10vw;
+    align-self: center;
+}
+
+h2{
+    font-size: 4vw;
+    margin-left: 3vw;
+    text-align: start;
+}
+
+.indica p{
+    font-size: 4vw;
+    margin-left: 3vw;
+    text-align: start;
+}
+
+.principal{
+    width: 95vw;
+    margin: 5vh auto 15vh auto;
+}
+
+.container{
+    border-bottom: #939393 solid 1px;
+    display: flex;
+    margin: 2vh auto;
+    padding-bottom: 2vh;
+}
+
+.clube{
+    border-bottom: #939393 solid 1px;
+    display: flex;
+    margin: 2vh auto;
+    padding-bottom: 6%;
+}
+
+h3{
+    align-self: center;
+    margin-left: 2vw;
+    font-size: 5vw;
+}
+
+.container p{
+    align-self: center;
+    text-align: left;
+    font-size: 5vw;
+    position: absolute;
+    left: 15vw;
+}
+
+.clube p{
+    align-self: center;
+    text-align: left;
+    font-size: 5vw;
+    position: absolute;
+    left: 15vw;     
+}
+
+.aux{
+    display: block;
+}
+
+main span{
+    align-self: center;
+    position: absolute;
+    right: 6%;
+}
+
+main img{
+    width: 10vw;
+    height: auto;
+}
+
+/*Rodapé*/
+
+footer{
+    display: flex;
+    background-color: #ffad73;
+    box-shadow: 0px 0px 10px 0px #939393;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer figure img{
+    width: auto;
+    height: 28px;
+    margin: 0;
+    padding: 1vh;
+}
+
+figcaption{
+    text-align: center;
+    color: #fff;
+}

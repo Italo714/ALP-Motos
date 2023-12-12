@@ -1,0 +1,141 @@
+/*geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-family: sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+/*topo*/
+
+header{
+    background-image: linear-gradient( to bottom, #DF9B6A , #FE6B01 );
+    width: 100vw;
+    min-height: 60px;
+    align-self: center;
+    box-shadow: 0px 0px 10px 0px #939393;
+    padding-top: 2vh;
+}
+
+.busca{
+    background-color:#FFF;
+    border:solid 1px;
+    border-radius:15px;
+    width: 230px;
+    margin: auto;
+    height: 40px;
+    display: flex;
+}
+
+.txtbusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:100%;
+    border:none;
+    height: auto;
+}
+
+.imgbusca{
+    width: auto;
+    height: 30px;
+    align-self: center;
+}
+
+/*meio*/
+
+.topo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    height: 40px;
+    align-items: center;
+}
+.topo form{
+
+    margin: 0;
+}
+
+.botao{
+    background-color: #ffad73;
+    border: #f39756 solid 1px;
+    border-radius: 5px;
+    height: 28px;
+    color: #fff;
+    width: 23vw;
+}
+
+main form{
+    margin: 50px auto;
+}
+
+.container{
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh auto;
+    box-shadow: 0px 2px 8px 0px #939393;
+    padding: 5vw;
+}
+
+.topo {
+    text-align: left;
+}
+
+.meio {
+    display: flex;
+    padding-top: 10px;
+    border-top: #000 solid 1px;
+    justify-content: space-evenly;
+}
+
+.meio-esq {
+    text-align: left;
+    width: 45%;
+}
+
+.meio-esq p {
+    line-height: 25px;
+}
+
+.meio-dir {
+    width: 45%;
+}
+
+/*Rodapé*/
+
+footer{
+    display: flex;
+    background-color: #ffad73;
+    box-shadow: 0px 0px 10px 0px #939393;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer figure img{
+    width: auto;
+    height: 30px;
+    margin: 0;
+    padding: 1vh;
+}
+
+figcaption{
+    text-align: center;
+    color: #fff;
+}

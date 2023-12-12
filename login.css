@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 80%;
+    height: auto;
+    margin-top: 20vh;
+
+}
+
+body {
+    background-image: linear-gradient( to bottom, #FE6B01 , #DF9B6A );
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-family: sans-serif;
+
+
+}
+
+.formulario {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.info {
+    width: 100%;
+    margin: 15px 0;
+
+}
+
+.info input {
+    width: 100%;
+    line-height: 30px;
+    border-radius: 5px;
+    border: #DF9B6A solid 1px;
+}
+
+.info p {
+ text-align: left;
+ color: #fff
+}
+
+.inline{
+    display: flex;
+
+    justify-content: space-around;
+    width: 100%;
+    
+
+}
+
+.botao input{
+    width: auto;
+    height: 100%;
+    margin-right: 10%;
+    padding: 5px;
+    border-radius: 5px;
+    border: #DF9B6A solid 1px;
+}
+
+.botao select{
+    width: auto;
+    height: 100%;
+    margin-right: 10%;
+    border-radius: 5px;
+    border: #DF9B6A solid 1px;
+}
+
+.botao a{
+    color: #fff;
+    position: relative;
+    bottom: -40px;
+    right: 28vw;
+    padding-bottom: 15px;
+}
+
+.logo span {
+    font-weight: bold;
+}
+
+.logo_cadastro span {
+    font-weight: bold;
+}
+
+.voltar input {
+    position: relative;
+    bottom: -40px;
+    right: 34vw;
+    padding: 5px;
+    border-radius: 5px;
+    border: #DF9B6A solid 1px;
+}
+
+.logo_cadastro img{
+    width: 80vw;
+    height: auto;
+    margin-top: 10vh;
+}

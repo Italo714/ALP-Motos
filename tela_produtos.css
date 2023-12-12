@@ -1,0 +1,108 @@
+/*geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-family: sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+/*Header*/
+
+header{
+    background-color: #939393;
+    padding: 10px;
+}
+
+/*Main*/
+
+.container{
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh auto;
+    box-shadow: 0px 2px 8px 0px #939393;
+    padding: 5vw;
+}
+
+.topo {
+    text-align: left;
+}
+
+.meio {
+    display: flex;
+    padding-top: 10px;
+    border-top: #000 solid 1px;
+    justify-content: space-evenly;
+}
+
+.meio-esq {
+    text-align: left;
+    width: 45%;
+}
+
+.meio-esq p {
+    line-height: 25px;
+}
+
+.meio-dir {
+    width: 45%;
+}
+
+
+
+.aviso{
+    position: fixed;
+    top: 40vh;
+    left: 23vw;
+}
+
+.com_mais{
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+}
+
+.mais{
+    font-size: 40px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffad73;
+    border: #fc954b solid;
+    color: #b15c20;
+}
+
+/*Rodapé*/
+
+footer{
+    display: flex;
+    background-color: #ffad73;
+    box-shadow: 0px 0px 10px 0px #939393;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer figure img{
+    width: auto;
+    height: 28px;
+    margin: 0;
+    padding: 1vh;
+}
+
+figcaption{
+    text-align: center;
+    color: #fff;
+}
